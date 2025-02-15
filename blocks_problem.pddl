@@ -1,19 +1,6 @@
 (define (problem blocks-problem)
   (:domain blocks)
-  (:objects 
-    A B C - block
-    agent1 - agent
-  )
-  (:init 
-    (on-table A)
-    (on-table B)
-    (clear A)
-    (clear B)
-    (handempty agent1)
-  )
-  (:goal 
-    (and 
-      (on A B)
-    )
-  )
+  (:objects blockA blockB blockC blockD - block)
+  (:init (big blockA) (small blockB) (big blockC) (big blockD) (ontable blockA) (ontable blockB) (ontable blockC) (ontable blockD) (clear blockA) (clear blockB) (clear blockC) (clear blockD) (handempty))
+  (:goal (and (on blockA blockB) (on blockB blockC) (on blockC blockD)))
 )
