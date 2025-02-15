@@ -1,0 +1,131 @@
+2025-02-09 14:34:12,525 INFO     using search: breadth_first_search
+2025-02-09 14:34:12,525 INFO     using heuristic: None
+2025-02-09 14:34:12,525 INFO     Parsing Domain /Users/mohamedhassan/Downloads/BLOCKS-WORLD/blocks_domain.pddl
+2025-02-09 14:34:12,526 INFO     Parsing Problem /Users/mohamedhassan/Downloads/BLOCKS-WORLD/blocks_problem.pddl
+2025-02-09 14:34:12,526 DEBUG    < Domain definition: blocks Predicates: ['clear', 'on-table', 'holding', 'handempty', 'on'] Actions: ['pick-up', 'put-down', 'stack', 'unstack'] Constants: [] >
+2025-02-09 14:34:12,526 INFO     5 Predicates parsed
+2025-02-09 14:34:12,526 INFO     4 Actions parsed
+2025-02-09 14:34:12,526 INFO     4 Objects parsed
+2025-02-09 14:34:12,526 INFO     0 Constants parsed
+2025-02-09 14:34:12,526 INFO     Grounding start: blocks-problem
+2025-02-09 14:34:12,526 DEBUG    Grounding pick-up
+2025-02-09 14:34:12,526 DEBUG    Grounding put-down
+2025-02-09 14:34:12,526 DEBUG    Grounding stack
+2025-02-09 14:34:12,526 DEBUG    Grounding unstack
+2025-02-09 14:34:12,527 INFO     Relevance analysis removed 0 facts
+2025-02-09 14:34:12,527 INFO     Grounding end: blocks-problem
+2025-02-09 14:34:12,527 INFO     29 Variables created
+2025-02-09 14:34:12,527 INFO     40 Operators created
+2025-02-09 14:34:12,527 INFO     Search start: blocks-problem
+2025-02-09 14:34:12,527 DEBUG    breadth_first_search: Iteration 1, #unexplored=1
+2025-02-09 14:34:12,527 DEBUG    breadth_first_search: Iteration 2, #unexplored=4
+2025-02-09 14:34:12,527 DEBUG    breadth_first_search: Iteration 3, #unexplored=6
+2025-02-09 14:34:12,527 DEBUG    breadth_first_search: Iteration 4, #unexplored=8
+2025-02-09 14:34:12,527 DEBUG    breadth_first_search: Iteration 5, #unexplored=10
+2025-02-09 14:34:12,527 DEBUG    breadth_first_search: Iteration 6, #unexplored=12
+2025-02-09 14:34:12,527 DEBUG    breadth_first_search: Iteration 7, #unexplored=13
+2025-02-09 14:34:12,527 DEBUG    breadth_first_search: Iteration 8, #unexplored=14
+2025-02-09 14:34:12,527 DEBUG    breadth_first_search: Iteration 9, #unexplored=15
+2025-02-09 14:34:12,527 DEBUG    breadth_first_search: Iteration 10, #unexplored=16
+2025-02-09 14:34:12,527 DEBUG    breadth_first_search: Iteration 11, #unexplored=17
+2025-02-09 14:34:12,527 DEBUG    breadth_first_search: Iteration 12, #unexplored=18
+2025-02-09 14:34:12,527 DEBUG    breadth_first_search: Iteration 13, #unexplored=19
+2025-02-09 14:34:12,527 DEBUG    breadth_first_search: Iteration 14, #unexplored=20
+2025-02-09 14:34:12,527 DEBUG    breadth_first_search: Iteration 15, #unexplored=21
+2025-02-09 14:34:12,527 DEBUG    breadth_first_search: Iteration 16, #unexplored=22
+2025-02-09 14:34:12,527 DEBUG    breadth_first_search: Iteration 17, #unexplored=23
+2025-02-09 14:34:12,527 DEBUG    breadth_first_search: Iteration 18, #unexplored=24
+2025-02-09 14:34:12,527 DEBUG    breadth_first_search: Iteration 19, #unexplored=25
+2025-02-09 14:34:12,527 DEBUG    breadth_first_search: Iteration 20, #unexplored=26
+2025-02-09 14:34:12,527 DEBUG    breadth_first_search: Iteration 21, #unexplored=27
+2025-02-09 14:34:12,527 DEBUG    breadth_first_search: Iteration 22, #unexplored=28
+2025-02-09 14:34:12,527 DEBUG    breadth_first_search: Iteration 23, #unexplored=29
+2025-02-09 14:34:12,527 DEBUG    breadth_first_search: Iteration 24, #unexplored=30
+2025-02-09 14:34:12,527 DEBUG    breadth_first_search: Iteration 25, #unexplored=31
+2025-02-09 14:34:12,527 DEBUG    breadth_first_search: Iteration 26, #unexplored=32
+2025-02-09 14:34:12,527 DEBUG    breadth_first_search: Iteration 27, #unexplored=32
+2025-02-09 14:34:12,527 DEBUG    breadth_first_search: Iteration 28, #unexplored=33
+2025-02-09 14:34:12,527 DEBUG    breadth_first_search: Iteration 29, #unexplored=33
+2025-02-09 14:34:12,527 DEBUG    breadth_first_search: Iteration 30, #unexplored=34
+2025-02-09 14:34:12,527 DEBUG    breadth_first_search: Iteration 31, #unexplored=34
+2025-02-09 14:34:12,527 DEBUG    breadth_first_search: Iteration 32, #unexplored=35
+2025-02-09 14:34:12,527 DEBUG    breadth_first_search: Iteration 33, #unexplored=35
+2025-02-09 14:34:12,527 DEBUG    breadth_first_search: Iteration 34, #unexplored=36
+2025-02-09 14:34:12,527 DEBUG    breadth_first_search: Iteration 35, #unexplored=36
+2025-02-09 14:34:12,527 DEBUG    breadth_first_search: Iteration 36, #unexplored=36
+2025-02-09 14:34:12,527 DEBUG    breadth_first_search: Iteration 37, #unexplored=36
+2025-02-09 14:34:12,527 DEBUG    breadth_first_search: Iteration 38, #unexplored=36
+2025-02-09 14:34:12,527 DEBUG    breadth_first_search: Iteration 39, #unexplored=36
+2025-02-09 14:34:12,527 DEBUG    breadth_first_search: Iteration 40, #unexplored=36
+2025-02-09 14:34:12,527 DEBUG    breadth_first_search: Iteration 41, #unexplored=36
+2025-02-09 14:34:12,527 DEBUG    breadth_first_search: Iteration 42, #unexplored=36
+2025-02-09 14:34:12,527 DEBUG    breadth_first_search: Iteration 43, #unexplored=36
+2025-02-09 14:34:12,527 DEBUG    breadth_first_search: Iteration 44, #unexplored=35
+2025-02-09 14:34:12,527 DEBUG    breadth_first_search: Iteration 45, #unexplored=35
+2025-02-09 14:34:12,527 DEBUG    breadth_first_search: Iteration 46, #unexplored=34
+2025-02-09 14:34:12,527 DEBUG    breadth_first_search: Iteration 47, #unexplored=34
+2025-02-09 14:34:12,527 DEBUG    breadth_first_search: Iteration 48, #unexplored=33
+2025-02-09 14:34:12,527 DEBUG    breadth_first_search: Iteration 49, #unexplored=33
+2025-02-09 14:34:12,527 DEBUG    breadth_first_search: Iteration 50, #unexplored=32
+2025-02-09 14:34:12,527 DEBUG    breadth_first_search: Iteration 51, #unexplored=32
+2025-02-09 14:34:12,527 DEBUG    breadth_first_search: Iteration 52, #unexplored=31
+2025-02-09 14:34:12,527 DEBUG    breadth_first_search: Iteration 53, #unexplored=31
+2025-02-09 14:34:12,527 DEBUG    breadth_first_search: Iteration 54, #unexplored=30
+2025-02-09 14:34:12,527 DEBUG    breadth_first_search: Iteration 55, #unexplored=30
+2025-02-09 14:34:12,527 DEBUG    breadth_first_search: Iteration 56, #unexplored=29
+2025-02-09 14:34:12,527 DEBUG    breadth_first_search: Iteration 57, #unexplored=29
+2025-02-09 14:34:12,527 DEBUG    breadth_first_search: Iteration 58, #unexplored=28
+2025-02-09 14:34:12,527 DEBUG    breadth_first_search: Iteration 59, #unexplored=28
+2025-02-09 14:34:12,527 DEBUG    breadth_first_search: Iteration 60, #unexplored=27
+2025-02-09 14:34:12,528 DEBUG    breadth_first_search: Iteration 61, #unexplored=27
+2025-02-09 14:34:12,528 DEBUG    breadth_first_search: Iteration 62, #unexplored=27
+2025-02-09 14:34:12,528 DEBUG    breadth_first_search: Iteration 63, #unexplored=26
+2025-02-09 14:34:12,528 DEBUG    breadth_first_search: Iteration 64, #unexplored=26
+2025-02-09 14:34:12,528 DEBUG    breadth_first_search: Iteration 65, #unexplored=26
+2025-02-09 14:34:12,528 DEBUG    breadth_first_search: Iteration 66, #unexplored=25
+2025-02-09 14:34:12,528 DEBUG    breadth_first_search: Iteration 67, #unexplored=25
+2025-02-09 14:34:12,528 DEBUG    breadth_first_search: Iteration 68, #unexplored=25
+2025-02-09 14:34:12,528 DEBUG    breadth_first_search: Iteration 69, #unexplored=24
+2025-02-09 14:34:12,528 DEBUG    breadth_first_search: Iteration 70, #unexplored=24
+2025-02-09 14:34:12,528 DEBUG    breadth_first_search: Iteration 71, #unexplored=24
+2025-02-09 14:34:12,528 DEBUG    breadth_first_search: Iteration 72, #unexplored=24
+2025-02-09 14:34:12,528 DEBUG    breadth_first_search: Iteration 73, #unexplored=24
+2025-02-09 14:34:12,528 DEBUG    breadth_first_search: Iteration 74, #unexplored=24
+2025-02-09 14:34:12,528 DEBUG    breadth_first_search: Iteration 75, #unexplored=24
+2025-02-09 14:34:12,528 DEBUG    breadth_first_search: Iteration 76, #unexplored=24
+2025-02-09 14:34:12,528 DEBUG    breadth_first_search: Iteration 77, #unexplored=24
+2025-02-09 14:34:12,528 DEBUG    breadth_first_search: Iteration 78, #unexplored=24
+2025-02-09 14:34:12,528 DEBUG    breadth_first_search: Iteration 79, #unexplored=24
+2025-02-09 14:34:12,528 DEBUG    breadth_first_search: Iteration 80, #unexplored=24
+2025-02-09 14:34:12,528 DEBUG    breadth_first_search: Iteration 81, #unexplored=24
+2025-02-09 14:34:12,528 DEBUG    breadth_first_search: Iteration 82, #unexplored=24
+2025-02-09 14:34:12,528 DEBUG    breadth_first_search: Iteration 83, #unexplored=24
+2025-02-09 14:34:12,528 DEBUG    breadth_first_search: Iteration 84, #unexplored=24
+2025-02-09 14:34:12,528 DEBUG    breadth_first_search: Iteration 85, #unexplored=24
+2025-02-09 14:34:12,528 DEBUG    breadth_first_search: Iteration 86, #unexplored=24
+2025-02-09 14:34:12,528 DEBUG    breadth_first_search: Iteration 87, #unexplored=24
+2025-02-09 14:34:12,528 DEBUG    breadth_first_search: Iteration 88, #unexplored=24
+2025-02-09 14:34:12,528 DEBUG    breadth_first_search: Iteration 89, #unexplored=24
+2025-02-09 14:34:12,528 DEBUG    breadth_first_search: Iteration 90, #unexplored=24
+2025-02-09 14:34:12,528 DEBUG    breadth_first_search: Iteration 91, #unexplored=24
+2025-02-09 14:34:12,528 DEBUG    breadth_first_search: Iteration 92, #unexplored=24
+2025-02-09 14:34:12,528 DEBUG    breadth_first_search: Iteration 93, #unexplored=24
+2025-02-09 14:34:12,528 DEBUG    breadth_first_search: Iteration 94, #unexplored=24
+2025-02-09 14:34:12,528 DEBUG    breadth_first_search: Iteration 95, #unexplored=24
+2025-02-09 14:34:12,528 DEBUG    breadth_first_search: Iteration 96, #unexplored=24
+2025-02-09 14:34:12,528 DEBUG    breadth_first_search: Iteration 97, #unexplored=24
+2025-02-09 14:34:12,528 DEBUG    breadth_first_search: Iteration 98, #unexplored=24
+2025-02-09 14:34:12,528 DEBUG    breadth_first_search: Iteration 99, #unexplored=24
+2025-02-09 14:34:12,528 DEBUG    breadth_first_search: Iteration 100, #unexplored=24
+2025-02-09 14:34:12,528 DEBUG    breadth_first_search: Iteration 101, #unexplored=24
+2025-02-09 14:34:12,528 DEBUG    breadth_first_search: Iteration 102, #unexplored=24
+2025-02-09 14:34:12,528 DEBUG    breadth_first_search: Iteration 103, #unexplored=23
+2025-02-09 14:34:12,528 DEBUG    breadth_first_search: Iteration 104, #unexplored=22
+2025-02-09 14:34:12,528 DEBUG    breadth_first_search: Iteration 105, #unexplored=21
+2025-02-09 14:34:12,528 DEBUG    breadth_first_search: Iteration 106, #unexplored=20
+2025-02-09 14:34:12,528 INFO     Goal reached. Start extraction of solution.
+2025-02-09 14:34:12,528 INFO     106 Nodes expanded
+2025-02-09 14:34:12,528 INFO     Search end: blocks-problem
+2025-02-09 14:34:12,528 INFO     Search time: 0.0016
+2025-02-09 14:34:12,528 INFO     Plan length: 6
+2025-02-09 14:34:12,567 INFO     Plan correct

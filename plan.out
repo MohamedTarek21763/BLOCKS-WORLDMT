@@ -1,0 +1,20 @@
+2025-02-09 14:26:17,091 INFO     using search: breadth_first_search
+2025-02-09 14:26:17,091 INFO     using heuristic: None
+2025-02-09 14:26:17,091 INFO     Parsing Domain /Users/mohamedhassan/Downloads/BLOCKS-WORLD/blocks_domain.pddl
+2025-02-09 14:26:17,092 INFO     Parsing Problem /Users/mohamedhassan/Downloads/BLOCKS-WORLD/blocks_problem.pddl
+2025-02-09 14:26:17,093 INFO     7 Predicates parsed
+2025-02-09 14:26:17,093 INFO     4 Actions parsed
+2025-02-09 14:26:17,093 INFO     4 Objects parsed
+2025-02-09 14:26:17,093 INFO     0 Constants parsed
+2025-02-09 14:26:17,093 INFO     Grounding start: blocks-problem
+2025-02-09 14:26:17,093 INFO     Relevance analysis removed 0 facts
+2025-02-09 14:26:17,093 INFO     Grounding end: blocks-problem
+2025-02-09 14:26:17,093 INFO     29 Variables created
+2025-02-09 14:26:17,093 INFO     40 Operators created
+2025-02-09 14:26:17,093 INFO     Search start: blocks-problem
+2025-02-09 14:26:17,093 INFO     Goal reached. Start extraction of solution.
+2025-02-09 14:26:17,093 INFO     106 Nodes expanded
+2025-02-09 14:26:17,094 INFO     Search end: blocks-problem
+2025-02-09 14:26:17,094 INFO     Search time: 0.00058
+2025-02-09 14:26:17,094 INFO     Plan length: 6
+2025-02-09 14:26:17,127 WARNING  Plan NOT correct

@@ -1,0 +1,52 @@
+{
+  "blocks": [
+    {
+      "name": "blockA",
+      "size": "big"
+    },
+    {
+      "name": "blockB",
+      "size": "small"
+    },
+    {
+      "name": "blockC",
+      "size": "big"
+    },
+    {
+      "name": "blockD",
+      "size": "big"
+    }
+  ],
+  "initial": {
+    "ontable": [
+      "blockA",
+      "blockB",
+      "blockC",
+      "blockD"
+    ],
+    "on": [],
+    "clear": [
+      "blockA",
+      "blockB",
+      "blockC",
+      "blockD"
+    ],
+    "handempty": true
+  },
+  "goal": {
+    "on": [
+      [
+        "blockA",
+        "blockB"
+      ],
+      [
+        "blockB",
+        "blockC"
+      ],
+      [
+        "blockC",
+        "blockD"
+      ]
+    ]
+  }
+}

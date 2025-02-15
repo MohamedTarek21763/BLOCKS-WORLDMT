@@ -1,0 +1,17 @@
+{
+    "blocks": ["A", "B", "C", "D"],
+    "big_blocks": ["A", "C"],
+    "small_blocks": ["B", "D"],
+    "init": [
+      {"on-table": "A"},
+      {"on-table": "B"},
+      {"on": ["C", "A"]},
+      {"clear": "C"},
+      {"clear": "D"}
+    ],
+    "goal": [
+      {"on": ["A", "B"]},
+      {"on": ["B", "C"]}
+    ]
+  }
+  
